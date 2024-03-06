@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer {
+    display: flex;
+    gap: 1rem;
+}
+.board {
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+}
+
+.btnBlack {
+    background-color: hsl(0, 0%, 35%);
+    padding: 10px;
+    margin: 10px;
+    border-style: none;
+    border-radius: 15px;
+    color: white;
+}
+.btnBlack:hover {
+    background-color: hsl(0, 0%, 55%);
+
+}
+.btnBlack:active {
+    background-color: hsl(0, 0%, 15%);
+
+}
+.btnRainbow {
+    background-color: hsl(60, 93%, 44%);
+    padding: 10px;
+    margin: 10px;
+    border-style: none;
+    border-radius: 15px;
+}
+.btnRainbow:hover {
+    background-color: hsl(60, 93%, 64%);
+    padding: 10px;
+    margin: 10px;
+    border-style: none;
+    border-radius: 15px;
+}
+.btnRainbow:active {
+    background-color: hsl(60, 93%, 24%);
+}
+.btnReset {
+    background-color: hsl(0, 100%, 38%);
+    padding: 10px;
+    margin: 10px;
+    border-style: none;
+    border-radius: 15px;
+    color:white;
+}
+.btnReset:hover {
+    background-color: hsl(0, 100%, 58%);
+}
+.btnReset:active {
+    background-color: hsl(0, 100%, 18%);
+}
+.btnSelect {
+    background-color: hsl(0, 100%, 38%);
+    padding: 10px;
+    margin: 10px;
+    border-style: none;
+    border-radius: 15px;
+    color:white;
+}
+.btnSelect:hover {
+    background-color: hsl(0, 100%, 58%);
+}
+.btnSelect:active {
+    background-color: hsl(0, 100%, 18%);
+}
