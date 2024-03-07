@@ -8,15 +8,12 @@
 </head>
 <body>
     <h1>Etch-a-Sketch</h1>
-    <div class="header">
-        <h4>Select grid dimensions</h4>
-        <button id="popup" class="btnSelect">Select</button>
+    <div class="buttons">
+        <button id="inputMethod" onclick="getInputMethod()">Game Setup</button>
+        <button id="reset" onclick="clearBoard()">Reset</button>
     </div>
-    <div class="board"></div>
-    <div class="footer">
-        <button class="btnBlack">Black</button>
-        <button class="btnRainbow">Rainbow</button>
-        <button class="btnReset">Reset</button>
+    <div id="board">
+
     </div>
 
     <script src="./script.js"></script>

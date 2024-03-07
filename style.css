@@ -1,88 +1,64 @@
 * {
-    padding: 0;
-    margin: 0;
-
+    font-family: 'Courier New', Courier, monospace;
 }
-
 body {
     display: flex;
+    gap: .5rem;
     flex-direction: column;
     align-items: center;
+    background-color: hsl(0, 90%, 49%);
+    
 }
-
-.header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+h1 {
+    font-size: 64px;
 }
-.footer {
-    display: flex;
-    gap: 1rem;
-}
-.board {
-    height: 500px;
-    width: 500px;
+#board {
     border-style: solid;
+    border-width: 15px;
+    border-radius: 15px;
+    height: 400px;
+    width: 400px;
+    gap: 1px;
+    display: flex;
+    background-color: white;
 }
 
-.btnBlack {
-    background-color: hsl(0, 0%, 35%);
+#reset {
+    background-color: hsl(14, 100%, 50%);
+    color: whitesmoke;
     padding: 10px;
-    margin: 10px;
-    border-style: none;
-    border-radius: 15px;
-    color: white;
-}
-.btnBlack:hover {
-    background-color: hsl(0, 0%, 55%);
+    font-size: large;
+    border-radius: 10px;
+    border-style:none;
+    cursor: pointer;
 
 }
-.btnBlack:active {
-    background-color: hsl(0, 0%, 15%);
+#reset:hover {
+    background-color: hsl(14, 100%, 60%);
+}
+#reset:active {
+    background-color: hsl(14, 100%, 30%);
+}
+
+#inputMethod {
+    background-color: hsl(251, 100%, 50%);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    border-style:none;
+    cursor: pointer;
 
 }
-.btnRainbow {
-    background-color: hsl(60, 93%, 44%);
-    padding: 10px;
-    margin: 10px;
-    border-style: none;
+#inputMethod:hover {
+    background-color: hsl(251, 100%, 60%);
+}
+#inputMethod:active {
+    background-color: hsl(251, 100%, 30%);
+}
+
+.buttons {
+    background-color: hsl(27, 100%, 50%);
+    padding: 15px;
     border-radius: 15px;
-}
-.btnRainbow:hover {
-    background-color: hsl(60, 93%, 64%);
-    padding: 10px;
-    margin: 10px;
-    border-style: none;
-    border-radius: 15px;
-}
-.btnRainbow:active {
-    background-color: hsl(60, 93%, 24%);
-}
-.btnReset {
-    background-color: hsl(0, 100%, 38%);
-    padding: 10px;
-    margin: 10px;
-    border-style: none;
-    border-radius: 15px;
-    color:white;
-}
-.btnReset:hover {
-    background-color: hsl(0, 100%, 58%);
-}
-.btnReset:active {
-    background-color: hsl(0, 100%, 18%);
-}
-.btnSelect {
-    background-color: hsl(0, 100%, 38%);
-    padding: 10px;
-    margin: 10px;
-    border-style: none;
-    border-radius: 15px;
-    color:white;
-}
-.btnSelect:hover {
-    background-color: hsl(0, 100%, 58%);
-}
-.btnSelect:active {
-    background-color: hsl(0, 100%, 18%);
 }
